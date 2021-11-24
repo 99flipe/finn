@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  font-family: Roboto;
+  font-style: normal;
+  color: black;
+  margin:0;
+  padding:0;
+  font-size: 5vh;
+}
+body{
+  background-color: #2CB3F3;
+  width: 120vw;
+  height: 180vh;
+  box-sizing: border-box;
+}
+h1,h2{
+  text-align: center;
+  font-family: Roboto; 
+}
+.corpo{
+  width:80vw;
+  height: 120vh;
+  top: 40%;
+  left: 15%;
+  background-color: white;
+  position: absolute;
+  border-radius: 15% 15% 0% 0%;
+  z-index:1;
+}
+.focinho{
+  position: absolute;
+  width: 65%;
+  height: 100%;
+  left: 24%;
+  top: 50%;
+  background-color: #FFE1C9;
+  border-radius: 50%;
+  justify-content: center;
+  z-index:2;
+}
+.olho1{
+  width: 4vw;
+  height: 8vh;
+  border: solid;
+  border-radius:60%;
+  background-color: black;
+  left: 38%;
+  top: 75%;
+  z-index:3;
+  position:absolute; 
+  display:flex;
+}
+.olho2{
+  width: 4vw;
+  height: 8vh;
+  border: solid;
+  border-radius:60%;
+  background-color: black;
+  left:72%;
+  top: 75%;
+  z-index:3;
+  position:absolute; 
+  display:flex;
+}
+.email{
+  position:absolute;
+  width: 25vw;
+  heigth: 25vh;
+  left: 45%;
+  top: 118%;
+  z-index:4;
+  box-sizing: border-box;
+  border-radius: 2% 2%;
+  border: 0.3vw solid black;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70%;
+  line-height: 6vh;
+  color: #CCCCCC;
+}
+.senha{
+  position:absolute;
+  width: 25vw;
+  heigth: 25vh;
+  left:45%;
+  top:125%;
+  z-index:4;
+  box-sizing: border-box;
+  border-radius: 3% 3%;
+  border: 0.3vw solid black;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70%;
+  line-height: 6vh;
+  color: #CCCCCC;
+}
+.butao{
+  position:absolute;
+  width: 20vw;
+  heigth: 50vh;
+  left: 49%;
+  top: 179%;
+  background-color:#55A603;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 85%;
+  line-height: 135%;
+  color: #B2F272; 
+}
