@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import 
+url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *{
   font-family: Roboto;
@@ -10,7 +11,7 @@
 }
 body{
   background-color: #2CB3F3;
-  width: 120vw;
+  width: 98.5vw;
   height: 180vh;
   box-sizing: border-box;
 }
@@ -19,10 +20,10 @@ h1,h2{
   font-family: Roboto; 
 }
 .corpo{
-  width:80vw;
+  width:75vw;
   height: 120vh;
   top: 40%;
-  left: 15%;
+  left: 13vw;
   background-color: white;
   position: absolute;
   border-radius: 15% 15% 0% 0%;
@@ -32,7 +33,7 @@ h1,h2{
   position: absolute;
   width: 65%;
   height: 100%;
-  left: 24%;
+  left: 18vw;
   top: 50%;
   background-color: #FFE1C9;
   border-radius: 50%;
@@ -45,7 +46,7 @@ h1,h2{
   border: solid;
   border-radius:60%;
   background-color: black;
-  left: 38%;
+  left: 32vw;
   top: 75%;
   z-index:3;
   position:absolute; 
@@ -57,7 +58,7 @@ h1,h2{
   border: solid;
   border-radius:60%;
   background-color: black;
-  left:72%;
+  left:68vw;
   top: 75%;
   z-index:3;
   position:absolute; 
@@ -66,14 +67,12 @@ h1,h2{
 .email{
   position:absolute;
   width: 25vw;
-  heigth: 25vh;
-  left: 45%;
+  left: 40vw;
   top: 118%;
   z-index:4;
   box-sizing: border-box;
   border-radius: 2% 2%;
   border: 0.3vw solid black;
-  
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -84,14 +83,12 @@ h1,h2{
 .senha{
   position:absolute;
   width: 25vw;
-  heigth: 25vh;
-  left:45%;
+  left:40vw;
   top:125%;
   z-index:4;
   box-sizing: border-box;
   border-radius: 3% 3%;
   border: 0.3vw solid black;
-  
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -101,14 +98,13 @@ h1,h2{
 }
 .butao{
   position:absolute;
-  width: 20vw;
-  heigth: 50vh;
-  left: 49%;
+  width: 18vw;
+  left: 42.5vw;
   top: 179%;
   background-color:#55A603;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-style: inherit;
+  font-weight: 600;
   font-size: 85%;
   line-height: 135%;
   color: #B2F272; 
